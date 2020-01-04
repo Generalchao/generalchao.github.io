@@ -1,0 +1,767 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+		<!-- swiper5 -->
+		<link rel="stylesheet" href="css/swiper.min.css">   
+		<link href="css/simplelightbox.css" rel="stylesheet" type="text/css" />
+		<link href="css/style.css" rel="stylesheet" type="text/css" />
+		<link rel="icon" sizes="any" mask="" href="img/dcdrops.svg">
+
+		<!-- 引入vue -->
+		<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+		<title>dcdrops</title>
+	</head>
+
+<body>
+	<div id="loader-wrapper" class="animated">
+		<div class="loader"></div>
+		<p>   Hi，<font id="time_box"></font>作品预热中...</p>
+	</div>
+	<header>
+		<div class="hamburger-menu default slideLeft42" id="menu_btn"><span></span><span></span><span></span></div>
+		<nav class="scroll-nav">
+			<i class="icon-dcdrops logo"></i>
+			<ul>
+				<li class="active animated"><a data-anchor="home"><i class="icon-home"></i><span>Home</span></a></li>
+				<li class="animated"><a data-anchor="about"><i class="icon-about"></i><span>About</span></a></li>
+				<li class="animated"><a data-anchor="portfolio"><i class="icon-portfolio"></i><span>Portfolio</span></a></li>
+				<li class="animated"><a data-anchor="skill"><i class="icon-skill"></i><span>Skill</span></a></li>
+				<li class="animated"><a data-anchor="strengths"><i class="icon-strengths"></i><span>Strengths</span></a></li>
+				<li class="animated"><a data-anchor="work"><i class="icon-work"></i><span>Work</span></a></li>
+				<li class="animated"><a data-anchor="contact"><i class="icon-contact"></i><span>Contact</span></a></li>
+				<!-- <li class="animated"><a href="message.html"><i class="icon-discuss"></i><span>Discuss <font style="font-size: 12px;opacity: .3;font-weight: normal;">Bata</font></span></a></li> -->
+			</ul>
+		</nav>
+		<div class="mask"></div>
+		<a class="logo" href="#">
+			<i class="icon-dcdrops"></i>
+		</a>
+
+		<div class="social-network">
+			<a href="https://dribbble.com/hidachao" title="Dribbble作品"><i class="icon-dribbble"></i></a>
+			<a href="http://dcdrops.zcool.com.cn" title="站酷作品"><i class="icon-zhanku"></i></a>
+			<a href="http://i.ui.cn/ucenter/125805.html" title="UI中国作品"><i class="icon-uichina"></i></a>
+			<a href="https://github.com/Generalchao" title="Github"><i class="icon-github"></i></a>
+		</div>
+	</header>
+
+<!-- content -->
+<div id="content">
+
+	<!-- banner -->
+	<!-- swiper -->
+	<div id="home" class="swiper-style-banner bg-text">
+
+		<div class="swiper-container" data-speed="1000" data-pagination="custom" data-parallax="1" data-breakpoints="1" data-slides-per-view="1" data-xs-slides="1" data-sm-slides="1" data-md-slides="1">
+			<div class="swiper-wrapper">
+
+				<div class="swiper-slide">
+					<div class="container">
+						<div class="row flex">
+							<div id="banner_title" class="col-sm-8 col-xs-12 col-xs-offset-0">
+								<div class="empty-space h100-xs"></div>
+								<article class="text-left">
+									<h1 class="h1" data-swiper-parallax="-800"><span>Hi, </span><font id="time_box2"></font><span class="header-text">I'm glad that you visited my site where he can get to know me and my work.</span></h1>
+									<div class="empty-space h35-xs"></div>
+									<p class="h6 white" data-swiper-parallax="-1000">张超超／5年+UI／北京</p>
+									<p data-swiper-parallax="-600">PERSONAL PORTFOLIO</p>
+									<div class="empty-space h30-xs"></div>
+									<div class="btn-wrap">
+										<a data-anchor="portfolio" class="button button__primary my_portfolio"><i class="icon-Portfolio_02"></i><span>View my</span><span>Portfolio</span>
+										</a>
+										<a class="button button__hero" href="http://note.youdao.com/noteshare?id=b4046a057a4a192c0b2b8f523e603afc"><i class="icon-pdf"></i><span>Download the</span><span>PDF File</span>
+										</a>
+									</div>
+								</article>
+
+								<div class="empty-space h100-xs fl"></div>
+								<div class="clear"></div>
+							</div>
+						</div>
+						<!-- 彩球容器 -->
+						<div class="colorbox">
+							<div class="ball ball_01 animated"></div>
+							<div class="ball ball_02 animated"></div>
+							<div class="ball ball_03 animated"></div>
+							<div class="ball ball_04 animated"></div>
+							<div class="ball ball_05 animated"></div>
+							<div class="ball ball_06 animated"></div>
+							<div class="ball ball_07 animated"></div>
+							<div class="ball ball_08 animated"></div>
+							<div class="ball ball_09 animated"></div>
+							<div class="ball ball_10 animated"></div>
+							<div class="ball ball_11 animated"></div>
+							<div class="ball ball_12 animated"></div>
+						</div>
+
+					</div>
+				</div>
+
+				<!-- <div class="swiper-slide">
+					<div class="container-fluid">
+						<div class="bg"><div class="bg-layer-40"></div></div>
+						<div class="row flex">
+							<div class="col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">
+								<div class="empty-space h50-xs"></div>
+								<article class="text-left">
+									<h2 class="h1" data-swiper-parallax="-800">Hi, <font id="time_box3"></font>I'm glad that you visited my site where he can get to know me and my work.</h2>
+									<div class="empty-space h35-xs"></div>
+									<p class="h6 white" data-swiper-parallax="-1000">张超超／5年UI／北京</p>
+									<p data-swiper-parallax="-600">PERSONAL PORTFOLIO</p>
+									<div class="empty-space h30-xs"></div>
+									<div class="btn-wrap"><a class="button button__primary my_portfolio" data-anchor="portfolio"><span>Portfolio</span></a><a class="button button__hero" href="http://pan.baidu.com/s/1nvLWrHZ"><span>Keynote</span></a></div>
+								</article>
+								<div class="empty-space h100-xs fl"></div>
+								<div class="empty-space h20-xs fl"></div>
+								<div class="clear"></div>
+							</div>
+						</div>
+					</div>
+				</div> -->
+
+			</div>
+
+
+		</div>
+	</div>
+
+	<!-- banner -->
+
+	<!-- container-style-1 -->
+	<div class="container-style-1">
+		<div class="banner-nav">
+
+			<!--波浪Waves Container-->
+			<div>
+				<svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+					<defs>
+						<path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+					</defs>
+					<g class="parallax">
+						<use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+						<use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+						<use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+						<use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+					</g>
+				</svg>
+			</div>
+			<!--波浪Waves end-->
+
+			<div id="btn-down" class="btn-down" data-anchor="about">
+				<i class="icon-arrow"></i>
+				<i class="icon-arrow"></i>
+			</div>
+		</div>		
+
+		<!-- about -->
+		<div id="about" class="container container-sm-30">
+			<div class="empty-space h50-xs h100-md"></div>
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">
+					<article  class="text-center">
+						<h6 class="h6">about</h6>
+						<div class="empty-space h10-xs"></div>
+						<h2 class="h2">Who am I</h2>
+						<div class="empty-space h30-xs h60-md"></div>
+					</article>
+				</div>
+			</div>
+			<div class="row flex">
+				<div class="col-md-6 about">
+					<img class="img" src="https://s2.ax1x.com/2020/01/01/l8LUQe.jpg" >
+					<div class="empty-space h30-xs h0-md"></div>
+				</div>
+				<div class="col-md-6">
+					<div class="row">
+						<div class="col-md-10 col-md-offset-1">
+							<article class="small-sm">
+								<h3 class="h3">All at a glance</h3>
+								<div class="empty-space h20-xs"></div>
+								<table class="about-detail">
+									<tr>
+										<td>5年UI设计经验，参与或主导过B端、C端等成熟大型项目设计工作，推进落地与迭代；</td>
+										<td>有html、css、js前端代码能力，具备调试前端UI代码技能；</td>
+									</tr>
+									<tr>
+										<td>有一定的手绘基础；可独立完成业务中所需插画；</td>
+										<td>实时关注行业最新设计规范及趋势，并应用到设计中；</td>
+									</tr>
+									<tr>
+										<td>丰富的产品交互设计经验，能够完成可交互动态demo</td>
+										<td>有丰富的与产品经理及工程师沟通经验，即保障独特性设计又保证可实施性。</td>
+									</tr>
+								</table>
+								<div class="empty-space h0-xs h40-md"></div>
+							</article>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="empty-space h55-xs h100-md"></div>
+		</div>
+		<!-- about -->
+		<!-- portfolio -->
+		<div id="portfolio" class="container-fluid nopadding block bg-text">
+			<div class="empty-space h50-xs h100-md"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">
+						<article class="text-center">
+							<h6 class="h6">portfolio</h6>
+							<div class="empty-space h10-xs"></div>
+							<h2 class="h2">My works</h2>
+						</article>
+					</div>
+				</div>
+				<div class="empty-space h30-xs h60-md"></div>
+				<div class="sorting-menu">
+					<ul>
+						<li data-filter="*" class="active" data-name="All"><span>All</span></li>
+						<li data-filter=".category-1" data-name="Html5"><span>Web</span></li>
+						<li data-filter=".category-2" data-name="App"><span>App</span></li>
+						<li data-filter=".category-3" data-name="Animation"><span>Animation</span></li>
+						<li data-filter=".category-4" data-name="Design"><span>Design</span></li>
+					</ul>
+				</div>
+				<div class="empty-space h20-xs"></div>
+				<div id="display_options_space" class="display_options_space empty-space h45-xs"></div>
+				<div class="display_options" id="display_options">
+					<div class="double_modle2 active" id="double_modle">
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+					<div id="single_modle" class="single_modle2"></div>
+				</div>
+
+				<p id="hide01" style="line-height: 100px;border: 1px dashed #fff;position: relative ;text-align: center ">首次加载预计需要花费您10s左右的时间🙏</p>
+				<div id="portfolio_items" class="row" style="display: none;">
+					<div class="col-md-12">
+						<div id="grid-items" class="grid double_modle">
+							<div class="grid-sizer"></div>
+							<div class="grid-item category-2">
+								<a href="https://s2.ax1x.com/2020/01/02/lNiSOA.jpg" class="lightbox"><img src="https://s2.ax1x.com/2020/01/02/lNiSOA.jpg"></a>
+							</div>
+							<div class="grid-item category-1">
+								<a href="https://s2.ax1x.com/2020/01/01/lJ3y0U.jpg" class="lightbox"><img src="https://s2.ax1x.com/2020/01/01/lJ3y0U.jpg"></a>
+							</div>
+							<div class="grid-item category-2">
+								<a href="td.html" class="lightbox"><img src="https://s2.ax1x.com/2019/12/31/l3s1G8.jpg"></a>
+							</div>
+							<div class="grid-item category-2">
+								<a href="lw.html" class="lightbox"><img data-lazyload="https://s2.ax1x.com/2020/01/03/la9ZOs.jpg"></a>
+							</div>
+							<div class="grid-item category-1">
+								<a href="dy.html" class="lightbox"><img data-lazyload="https://s2.ax1x.com/2020/01/01/lJ1zo4.jpg"></a>
+							</div>
+							<div class="grid-item category-2">
+								<a href="zzxc.html" class="lightbox"><img data-lazyload="https://s2.ax1x.com/2020/01/03/laSz5T.jpg"></a>
+							</div>
+
+
+							<div class="grid-item category-4">
+								<a href="https://s2.ax1x.com/2020/01/02/lYPlGQ.jpg" class="lightbox"><img data-lazyload="https://s2.ax1x.com/2020/01/02/lYPlGQ.jpg"></a>
+							</div>
+							<div class="grid-item category-4">
+								<a href="https://s2.ax1x.com/2020/01/01/lGhqTU.jpg" class="lightbox"><img data-lazyload="https://s2.ax1x.com/2020/01/01/lGhqTU.jpg"></a>
+							</div>
+							<div class="grid-item category-4">
+								<a href="https://s2.ax1x.com/2020/01/01/lGhTO0.jpg" class="lightbox"><img data-lazyload="https://s2.ax1x.com/2020/01/01/lGhTO0.jpg"></a>
+							</div>
+							<div class="grid-item category-4">
+								<a href="https://s2.ax1x.com/2020/01/01/lGhoyq.jpg" class="lightbox"><img data-lazyload="https://s2.ax1x.com/2020/01/01/lGhoyq.jpg"></a>
+							</div>
+							<div class="grid-item category-4">
+								<a href="https://s2.ax1x.com/2020/01/01/lGh5Ss.jpg" class="lightbox"><img data-lazyload="https://s2.ax1x.com/2020/01/01/lGh5Ss.jpg"></a>
+							</div>
+							<div class="grid-item category-4">
+								<a href="https://s2.ax1x.com/2020/01/01/lGhHmV.jpg" class="lightbox"><img data-lazyload="https://s2.ax1x.com/2020/01/01/lGhHmV.jpg"></a>
+							</div>
+							<div class="grid-item category-4">
+								<a href="https://s2.ax1x.com/2020/01/01/lGhIln.jpg" class="lightbox"><img data-lazyload="https://s2.ax1x.com/2020/01/01/lGhIln.jpg"></a>
+							</div>
+							<div class="grid-item category-4">
+								<a href="https://s2.ax1x.com/2020/01/01/lGhbwT.jpg" class="lightbox"><img data-lazyload="https://s2.ax1x.com/2020/01/01/lGhbwT.jpg"></a>
+							</div>
+							<div class="grid-item category-4">
+								<a href="https://s2.ax1x.com/2020/01/01/lGhfYQ.jpg" class="lightbox"><img data-lazyload="https://s2.ax1x.com/2020/01/01/lGhfYQ.jpg"></a>
+							</div>
+							<div class="grid-item category-3">
+								<a href="https://dribbble.com/shots/6302561-Change-pipeline-under-the-card-view" class="lightbox"><img data-lazyload="https://s2.ax1x.com/2020/01/01/lJlVc6.gif"></a>
+							</div>	
+							<div class="grid-item category-3">
+								<a href="https://s2.ax1x.com/2020/01/01/lGinSA.gif" class="lightbox"><img data-lazyload="https://s2.ax1x.com/2020/01/01/lGinSA.gif"></a>
+							</div>			
+							<div class="grid-item category-3">
+								<a href="https://s2.ax1x.com/2019/12/31/l1AShj.gif" class="lightbox"><img src="https://s2.ax1x.com/2019/12/31/l1AShj.gif"></a>
+							</div>			
+							<div class="grid-item category-3">
+								<a href="https://s2.ax1x.com/2020/01/01/lGy5tI.gif" class="lightbox"><img data-lazyload="https://s2.ax1x.com/2020/01/01/lGy5tI.gif"></a>
+							</div>				
+							<div class="grid-item category-3">
+								<a href="https://s2.ax1x.com/2020/01/01/lGyf7d.gif" class="lightbox"><img data-lazyload="https://s2.ax1x.com/2020/01/01/lGyf7d.gif"></a>
+							</div>	
+							<div class="grid-item category-3">
+								<a href="https://s2.ax1x.com/2020/01/01/lGyHc8.gif" class="lightbox"><img data-lazyload="https://s2.ax1x.com/2020/01/01/lGyHc8.gif"></a>
+							</div>			
+							<div class="grid-item category-3">
+								<a href="https://s2.ax1x.com/2020/01/01/lG6hKU.gif" class="lightbox"><img data-lazyload="https://s2.ax1x.com/2020/01/01/lG6hKU.gif"></a>
+							</div>		
+							<div class="grid-item category-3">
+								<a href="https://s2.ax1x.com/2020/01/01/lG6p90.gif" class="lightbox"><img data-lazyload="https://s2.ax1x.com/2020/01/01/lG6p90.gif"></a>
+							</div>	
+												
+						</div>
+					</div>
+				</div>
+				<div class="empty-space h25-xs h65-md"></div>
+			</div>
+		</div>
+		<!-- portfolio -->
+
+		<div class="clear"></div> 	
+
+		<!-- skill -->
+		<div id="skill" class="container-fluid block bg-text">
+			<div class="empty-space h50-xs h100-md"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">
+						<article class="text-center">
+							<h6 class="h6">skill</h6>
+							<div class="empty-space h10-xs"></div>
+							<h2 class="h2">What can I do</h2>
+							<div class="empty-space h20-xs"></div>
+							<p>一枚懂产品、知业务、上能前端、下能动效的全栈UI设计师</p>
+						</article>
+					</div>
+				</div>
+				<div class="empty-space h30-xs h60-md"></div>
+				<div class="row small-sm">
+					<div class="col-md-3 col-sm-6">
+						<article class="text-center">
+							<i class="icon-UI"></i>
+							<div class="empty-space h15-xs"></div>
+							<a><h5 class="h5 hover-1">UI设计</h5></a>
+							<div class="empty-space h15-xs"></div>
+							<p>主导或参与过大型B端、C端的App、Web的设计工作、制定设计规范，上能驾驭小清新轻奢风、下能规范企业风商务风。</p>
+							<div class="empty-space h35-xs h0-md"></div>
+						</article>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<article class="text-center">
+							<i class="icon-GUI"></i>
+							<div class="empty-space h15-xs"></div>
+							<a><h5 class="h5 hover-1">视觉设计</h5></a>
+							<div class="empty-space h15-xs"></div>
+							<p>能独立完成网页banner、线下物料、logo设计、插画等相关视觉创意工作</p>
+							<div class="empty-space h35-xs h0-md"></div>
+						</article>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<article class="text-center">
+							<i class="icon-CODE"></i>
+							<div class="empty-space h15-xs"></div>
+							<a><h5 class="h5 hover-1">前端开发</h5></a>
+							<div class="empty-space h15-xs"></div>
+							<p>能撸html、css、js前端代码，能最大化对本人的UI视觉最优态呈现、知晓技术边缘、最大化推动设计落地。</p>
+							<div class="empty-space h35-xs h0-sm"></div>
+						</article>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<article class="text-center">
+							<i class="icon-UE"></i>
+							<div class="empty-space h15-xs"></div>
+							<a><h5 class="h5 hover-1">交互设计</h5></a>
+							<div class="empty-space h15-xs"></div>
+							<p>能对产品的交互体验、易用性、人机沟通创建必要且令人愉悦的交互设计</p>
+						</article>
+					</div>
+				</div>
+			</div>
+			<div class="empty-space h50-xs h100-md"></div>
+		</div>  
+
+		<div class="clear"></div>
+		<!-- skill -->
+		<!-- strengths -->
+		<div class="container" id="strengths"> 
+			<div class="empty-space h50-xs h100-md"></div>
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">
+					<article class="text-center">
+						<h6 class="h6">strengths</h6>
+						<div class="empty-space h10-xs"></div>
+						<h2 class="h2">My features</h2>
+						<div class="empty-space h30-xs h60-md"></div>
+					</article>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid">
+			<div class="row bg-row bg-img-1">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="list-counter">
+								<ol>
+									<li>
+										<article class="small-sm">
+											<h4 class="h4">响应最新设计趋势</h4>
+											<div class="empty-space h20-xs"></div>
+											<p>从拟物到扁平、从ios5到ios13，设计的趋势是贴合人的审美的习惯在优化迭代着，本人常泡站酷、追波、UI中国各大设计平台，实时关注最新动态，并运用到自己的设计中。</p>
+										</article>
+									</li>
+									<li>
+										<article class="small-sm">
+											<h4 class="h4">代码技能加持</h4>
+											<div class="empty-space h20-xs"></div>
+											<p>本人有一定的前端代码能力，独立完成自己的UI呈现不是问题，可同时站在视觉及技术实现的角度做产品，可保障最优化呈现产品视觉及人机交互。</p>
+										</article>
+									</li>
+									<li>
+										<article class="small-sm">
+											<h4 class="h4">5年UI经验</h4>
+											<div class="empty-space h20-xs "></div>
+											<p>5年的设计经验，懂得设计为解决问题而生，权衡视觉与技术实现的平衡、功能需求主次的平衡，前深挖产品，后知晓技术，做解决问题有意义，能落地的设计。</p>
+										</article>
+									</li>
+								</ol>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="empty-space h55-xs h100-md"></div>
+			</div>
+		</div>
+		<!-- strengths -->
+		
+
+		<!-- work -->
+		<div id="work" class="container-fluid block">
+			<div class="empty-space h50-xs h100-md"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">
+						<article class="text-center white-70">
+							<h6 class="h6">work</h6>
+							<div class="empty-space h10-xs"></div>
+							<h2 class="h2 white">UI Designer</h2>
+							<div class="empty-space h20-xs"></div>
+							<p>5+ 年工作经验</p>
+						</article>
+					</div>
+				</div>
+				<div class="empty-space h30-xs h60-md"></div>
+				<div class="row">
+					<div class="col-md-6 col-md-offset-0 col-sm-8 col-sm-offset-2">
+						<div class="price-wrapper">
+						   <i class="icon-renren"></i>
+						   <article class="small-sm">
+							   <h4 class="h4">人人网</h4>
+							   <p>2017 09 --- 2019 12</p>
+							   <div class="empty-space h60-xs"></div>
+							   <p><font>在职期间主要负责Lucrativ及分支产品线的规范制定、UI及交互设计等；协助Chime等其它产品线。
+								</font><br><br>主要包含Lucrativ下属的Sales、Talk、Portal等产品线、以及App、官网、协作规范与组件等,参与完成七成左右的工作。<br><br>#B端#  #CRM#</p>
+						   </article>
+						</div>
+					</div>
+					<div class="col-md-6 col-md-offset-0 col-sm-8 col-sm-offset-2">
+						<div class="price-wrapper">
+						   <i class="icon-dingya"></i>
+						   <article class="small-sm">
+							   <h4 class="h4">鼎芽亲子（上海佑卓）</h4>
+							   <p>2014 07 --- 2017 07</p>
+							   <div class="empty-space h60-xs"></div>
+							   <p><font>在职期间主要负责鼎芽亲子主要平台VI/UI/UX等相关设计工作、以及系列衍生产品。</font><br><br>主要包含鼎芽亲子主要平台、小糖果有声绘本、以及一系列互动亲子小游戏，完成九成左右的工作。<br><br>#C端#  #亲子教育#</p>
+						   </article>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="empty-space h50-xs h90-md"></div>
+		</div>
+		<!-- work -->
+
+		<div class="clear"></div>
+
+		<!-- contact -->
+		<div id="contact" class="container-fluid">	
+			<img class="footer-waves" src="img/footer-waves.svg">
+			<div class="empty-space h50-xs h100-md"></div>
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">
+					<article class="text-center">
+						<h6 class="h6">contact</h6>
+						<div class="empty-space h10-xs"></div>
+						<h2 class="h2">Keep in touch</h2>
+						<div class="empty-space h30-xs h60-md"></div>
+					</article>
+				</div>
+			</div>
+			<div class="row flex">
+				<div class="col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">
+					<div class="contact">
+						<div class="row">
+							<div class="col-md-4 col-sm-4">
+								<article class="text-center">
+									<img src="img/address.svg">
+									<div class="empty-space h15-xs"></div>
+									<h4 class="h4">Address</h4>
+									<a>中国，北京</a>
+								</article>                                
+							</div>
+							<div class="col-md-4 col-sm-4">
+								<article class="text-center">
+									<img src="img/phone.svg">
+									<div class="empty-space h15-xs"></div>
+									<h4 class="h4">Phone</h4>
+									<a href="tel:18515155995">185-1515-5995</a>
+								</article>                                
+							</div>
+							<div class="col-md-4 col-sm-4">
+								<article class="text-center">
+									<img src="img/email.svg">
+									<div class="empty-space h15-xs"></div>
+									<h4 class="h4">E-mail</h4>
+									<a href="mailto:generalchao@icloud.com">generalchao@icloud.com</a>
+								</article>                                
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="empty-space h100-xs"></div>
+			<div class="empty-space h0-xs h100-sm"></div>
+		</div>
+		<!-- contact -->
+
+		<!-- other -->
+<!-- 		<div class="container-fluid nopadding" style="display: none">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="swiper-instagram">
+						<div class="swiper-container" data-speed="1000" data-space="30" data-breakpoints="1" data-slides-per-view="8" data-xs-slides="4" data-sm-slides="6" data-md-slides="8">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<a class="img-hover-1"><img src="img/other-1.jpg"></a>
+								</div>
+								<div class="swiper-slide">
+									<a class="img-hover-1"><img src="img/other-2.jpg"></a>
+								</div>
+								<div class="swiper-slide">
+									<a class="img-hover-1"><img src="img/other-3.jpg"></a>
+								</div>
+								<div class="swiper-slide">
+									<a class="img-hover-1"><img src="img/other-4.jpg"></a>
+								</div>
+								<div class="swiper-slide">
+									<a class="img-hover-1"><img src="img/other-5.jpg"></a>
+								</div>
+								<div class="swiper-slide">
+									<a class="img-hover-1"><img src="img/other-6.jpg"></a>
+								</div>
+								<div class="swiper-slide">
+									<a class="img-hover-1"><img src="img/other-1.jpg"></a>
+								</div>
+								<div class="swiper-slide">
+									<a class="img-hover-1"><img src="img/other-2.jpg"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> -->
+		<!-- other -->
+
+		<!-- footer -->
+		<div class="container-fluid nopadding footer">
+			<div class="row">
+				<div class="col-md-12">
+					<footer>
+						<!-- id 将作为查询条件 -->
+						<!-- <span id="</index.html>" class="leancloud-visitors" data-flag-title="bolg访问量统计">
+						    <em class="post-meta-item-text">阅读量 </em>
+						    <i class="leancloud-visitors-count">1000000</i>
+						</span> -->
+						<div class="bottom_link_btn">
+							<i class="icon-dcdrops"></i>
+						</div>
+						<p>Thank you for your browsing</p>
+					</footer>
+				</div>
+			</div>
+		</div>
+		<!-- footer -->
+
+	</div>
+	<!-- end container-style-1 -->
+
+</div>
+<!-- content -->
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@2.2.4/dist/jquery.min.js"></script>
+<!-- 轮播图swiper插件 -->
+<script src="js/swiper.min.js"> </script>
+<!-- 轮播图swiper插件 -->
+<script src="js/isotope.pkgd.min.js"></script>
+
+<!-- 用于放大预览图片 -->
+<script src="js/simple-lightbox.min.js"></script>
+<!-- 用于放大预览图片 -->
+
+<script src="js/main.js"></script>
+
+<script src="js/mui.min.js "></script>
+<script src="js/mui.lazyload.js"></script>
+<script src="js/mui.lazyload.img.js"></script>   
+</script>
+	<script>
+
+		// 增加后移除动画
+		$(function(){
+			$('.ball').addClass('fadeInUp').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', 
+		  	function(){
+		      $(this).removeClass('fadeInUp');
+		    });
+		  });
+
+
+		// 懒加载
+		mui.init();
+		(function($) {
+			$(document).imageLazyload({
+				placeholder: 'https://s2.ax1x.com/2019/12/31/l3oaXq.gif'
+			});
+		})(mui);
+
+
+		// 滚动缩放(已移除jquery)
+		window.onscroll= function(){
+			var gheight = document.documentElement.scrollTop;//滚动高度
+			var banner_title = document.getElementById('banner_title');//首屏文字
+			var menu_btn = document.getElementById('menu_btn');//菜单按钮
+			var btn_down = document.getElementById('btn-down');//向下按钮
+
+			// 滚动改变菜单按钮背景与改变title内容
+			if(gheight > 450){
+				menu_btn.classList.add('menu_bg');
+				document.title = 'Thank you for your browsing';
+			}
+			else{	
+				menu_btn.classList.remove('menu_bg');
+				document.title = 'dcdrops';
+				// 滑动渐隐头部
+				banner_title.style.cssText = "opacity:1-(gheight/500); transform:translate3d(0,"+gheight/2+"px,-"+gheight*2+"px);"
+				// 滑动渐隐向下按钮
+				btn_down.style.opacity = 1-(gheight/400);
+			}
+
+		};
+		
+		// 检测上下滑动(已移除jquery)	
+		var new_scroll_position = 0;
+		var last_scroll_position ;
+		var menu_btn = document.getElementById('menu_btn');
+		window.addEventListener('scroll', function(e) {
+
+			last_scroll_position = window.scrollY;
+
+			if (new_scroll_position < last_scroll_position && last_scroll_position > 80) {
+				menu_btn.classList.replace("slideLeft42","slideRight42");
+			} else if (new_scroll_position > last_scroll_position) {
+				menu_btn.classList.replace("slideRight42","slideLeft42");
+			}
+
+		  	new_scroll_position = last_scroll_position;
+		});	
+
+
+
+		// 加载loading(已移除jquery)
+		var loader_wrapper = document.getElementById('loader-wrapper');
+		var hide01 = document.getElementById('hide01');
+		var portfolio_items = document.getElementById('portfolio_items');
+
+		//监听加载状态改变
+		document.onreadystatechange = completeLoading;
+		//加载状态为complete时移除loading效果
+		function completeLoading() {
+		  if (document.readyState == "complete") {
+				loader_wrapper.classList.add('fadeOutDown');
+				hide01.style.display = 'none';
+				portfolio_items.style.display = 'block';
+		  }
+		}
+
+
+		// 判断时辰(已移除jquery)
+		var timeshow1 = document.getElementById("time_box");
+		var timeshow2 = document.getElementById("time_box2");
+
+		now = new Date(),hour = now.getHours() 
+
+		if(hour < 6){timeshow1.innerHTML = "凌晨好！";timeshow2.innerHTML = "good day! "} 
+		else if (hour < 9){timeshow1.innerHTML = "早上好！";timeshow2.innerHTML = "good morning! "} 
+		else if (hour < 12){timeshow1.innerHTML = "上午好！";timeshow2.innerHTML = "good morning! "} 
+		else if (hour < 14){timeshow1.innerHTML = "中午好！";timeshow2.innerHTML = "good afternoon! "} 
+		else if (hour < 17){timeshow1.innerHTML = "下午好！";timeshow2.innerHTML = "good afternoon! "} 
+		else if (hour < 19){timeshow1.innerHTML = "傍晚好！";timeshow2.innerHTML = "good evening! "} 
+		else if (hour < 22){timeshow1.innerHTML = "晚上好！";timeshow2.innerHTML = "good night! "} 
+		else {timeshow1.innerHTML = "夜里好！";timeshow2.innerHTML = "it`s time to sleep! "} 
+
+
+		// 滚动到指定位置固定菜单
+
+		// window.onload = function(){
+		//     menuFixed();
+		// }
+
+		// function menuFixed(id){
+		//     var _getHeight = $("#display_options").offset().top - 45;	    
+		//     window.onscroll = function(){
+		//         changePos(id,_getHeight);
+		//     }
+		// }
+		// function changePos(id,height){
+		//     var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+
+		//     if(scrollTop < height){
+		//         $("#display_options").removeClass('fixed');
+		//         $("#display_options_space").removeClass('block');
+		//     }else{
+		//         $("#display_options").addClass('fixed');
+		//         $("#display_options_space").addClass('block');
+		//     }
+		// }
+
+		
+	</script>
+
+
+	<!-- github评论系统 -->
+<!-- 	<link rel="stylesheet" href="https://jjeejj.github.io/css/gitment.css">
+	<script src="https://jjeejj.github.io/js/gitment.js"></script>
+	<script>
+	var gitment = new Gitment({
+	  id: '<%= page.title %>',
+	  owner: 'Generalchao',
+	  repo: 'dcdrops',
+	  oauth: {
+	    client_id: '2adb4b0c7b374313dff7',
+	    client_secret: '3fec1df0bdd7a9a1f5e0b624d56bbc1e4d99a6ac',
+	  },
+	})
+	gitment.render('container')
+	</script> -->
+</body>
+</html>
