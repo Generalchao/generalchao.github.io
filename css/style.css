@@ -363,6 +363,9 @@ header.active .scroll-nav{transform: translateX(0);}
 @media(min-width: 415px){
   header.active .scroll-nav{transform: translateX(0);}
 }
+@media(min-width: 520px){
+#loader-wrapper{bottom: 100px;left:calc(50vw - 250px);}
+}
 @media(min-width: 735px){
 header .hamburger-menu{top:35px;right: 35px;}
 
@@ -383,7 +386,6 @@ header .hamburger-menu{top:35px;right: 35px;}
 .colorbox .ball_11{width: 94px;height: 94px;left: 651px;top:650px;background-image: radial-gradient(circle at 71% 27%, #ffffff, #b5c2d2);z-index: 7}
 .colorbox .ball_12{width: 88px;height: 88px;left: 873px;top:562px;background-image: radial-gradient(circle at 56% 32%, #ff96da, #cd1f9e);z-index: 6}
 .header-text{padding-left:30px;}
-#loader-wrapper{bottom: 100px;left:calc(50vw - 250px);}
 .social-network{display: block}
 
 }
