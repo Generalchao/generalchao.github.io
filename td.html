@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>小糖果</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<style type="text/css">
+    .qr_box{position: absolute;width: 200px;box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .1);right: 0;top:20px;display: none;height: 250px;}
+    .qr_box span{line-height: 50px;background-color: #fff;color: #000;display: block;text-align: center;}
+    .qr_box div{height: 200px;background-color: #fff;}
+    .qr_box a{line-height: 50px;background-color: #fff;}
+    #section-topbar01:hover .qr_box{display: block;}
+    .qr_box:hover{display: block;}
+
+	</style>
+</head>
+<body class="loaded">
+  <div class="title_bar">
+    <div class="work-details-box-wrap">
+      <div class="left">
+        <span class="icon_img" style="background-image: url('https://s2.ax1x.com/2020/01/01/lGRteS.jpg');"></span>
+        <span class="title">小糖果有声绘本</span>
+      </div>
+      <div class="right">
+        <a id="section-topbar01">
+          <i class="icon-demo"></i>DEMO
+        </a>
+        <a id="section-topbar02"><i class="icon-video"></i>VIDEO</a>
+      </div>
+    </div>
+  </div>
+  <a href="https://generalchao.github.io/sweet/" class="demo_btn" id="section-topbar"><i class="icon-demo"></i>DEMO</a>
+  <a class="demo_btn two" id="section-topbar2"><i class="icon-video"></i>VIDEO</a>
+  <div class="xm_content">
+    <img src="https://s2.ax1x.com/2020/01/01/lGRQJA.jpg">
+    <img src="https://s2.ax1x.com/2020/01/01/lGRMid.jpg">
+    <img src="https://s2.ax1x.com/2020/01/01/lGRuIH.jpg">
+    <img src="https://s2.ax1x.com/2020/01/01/lGRnde.jpg">
+    <img src="https://s2.ax1x.com/2020/01/01/lGRmZD.jpg">
+    <img src="https://s2.ax1x.com/2020/01/01/lGRnde.jpg">
+
+    <div style="position: relative;">
+    <img src="https://s2.ax1x.com/2020/01/01/lGRJL8.gif" style="width: 30.625%;position: absolute;right: 6.8%;top:20.3%;">
+    <img src="https://s2.ax1x.com/2020/01/01/lGR8QP.jpg">
+    </div>
+
+    <img src="https://s2.ax1x.com/2020/01/01/lGRGsf.jpg">
+    <img src="https://s2.ax1x.com/2020/01/01/lGRNdg.jpg">
+    <iframe frameborder="0" width="100%" height="498" src="https://v.qq.com/iframe/player.html?vid=r05202nlx02&tiny=0&auto=0" allowfullscreen></iframe>
+  </div>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/jquery/jquery@3.2.1/dist/jquery.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript"src="js/more.js"></script>
+
+<script type="text/javascript">
+
+   function browserRedirect() {
+            var sUserAgent = navigator.userAgent.toLowerCase();
+            var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";
+            var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";
+            var bIsMidp = sUserAgent.match(/midp/i) == "midp";
+            var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";
+            var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";
+            var bIsAndroid = sUserAgent.match(/android/i) == "android";
+            var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
+            var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
+         
+            if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) {
+               $("#section-topbar01").attr("href","https://generalchao.github.io/sweet/"); 
+            } else {
+               $("#section-topbar01").attr("href","td_pc.html"); 
+            }
+        }
+    browserRedirect();
+       
+</script>
+</body>
+</html>

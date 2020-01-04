@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>正在现场</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">	
+</head>
+<body class="loaded">  
+	<div class="title_bar">
+		<div class="work-details-box-wrap">
+		  <div class="left">
+		    <span class="icon_img" style="background-image: url('https://s2.ax1x.com/2020/01/03/laSOrn.png');"></span>
+		    <span class="title">正在现在Material Design重设计</span>
+		  </div>
+		  <div class="right">
+		    <a id="section-topbar02"><i class="icon-video"></i>VIDEO</a>
+		  </div>
+		</div>
+	</div>
+<a class="demo_btn slideLeft" id="section-topbar"><i class="icon-video"></i>VIDEO</a>
+<div class="xm_content">
+<img src="https://s2.ax1x.com/2020/01/03/laSvV0.jpg">
+<img src="https://s2.ax1x.com/2020/01/03/lapC24.jpg">
+<img src="https://s2.ax1x.com/2020/01/03/lapFM9.jpg">
+<iframe frameborder="0" width="100%" height="498" src="https://v.qq.com/iframe/player.html?vid=v0519b9xp3o&tiny=0&auto=0" allowfullscreen></iframe>
+</div>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript"src="js/more.js"></script>
+
+<script type="text/javascript">
+
+	// 检测上下滑动(已移除jquery)	
+	var new_scroll_position = 0;
+	var last_scroll_position;
+	var header = document.getElementById("section-topbar");
+
+	window.addEventListener('scroll', function(e) {
+
+	  last_scroll_position = window.scrollY;
+
+	  if (new_scroll_position < last_scroll_position && last_scroll_position > 80) {
+		header.classList.replace("slideLeft","slideRight");
+	  } else if (new_scroll_position > last_scroll_position) {
+		header.classList.replace("slideRight","slideLeft");
+	  }
+
+	  new_scroll_position = last_scroll_position;
+	});
+  
+
+</script>
+</body>
+</html>

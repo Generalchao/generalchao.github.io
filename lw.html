@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<title>理物</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">	
+		<style type="text/css">
+			
+			video{width: 100vw;}
+		</style>
+	</head>
+
+	<body class="loaded">
+
+		<div class="title_bar">
+			<div class="work-details-box-wrap">
+			  <div class="left">
+			    <span class="icon_img" style="background-image: url('https://s2.ax1x.com/2020/01/03/la9QYT.png');"></span>
+			    <span class="title">理物app—标签化物品整理工具</span>
+			  </div>
+			  <div class="right">
+			    <a id="section-topbar02"><i class="icon-video"></i>VIDEO</a>
+			  </div>
+			</div>
+		</div>
+
+		<a class="demo_btn" id="section-topbar"><i class="icon-video"></i>VIDEO</a>
+		<div class="xm_content">
+			<img src="https://s2.ax1x.com/2020/01/03/la9mmn.jpg">
+			<img src="https://s2.ax1x.com/2020/01/03/la9PFf.jpg">
+			<img src="https://s2.ax1x.com/2020/01/03/la9FfS.jpg">
+			<img src="https://s2.ax1x.com/2020/01/03/la9ASg.jpg">
+			<img src="https://s2.ax1x.com/2020/01/03/la9uT0.jpg">
+			<img src="https://s2.ax1x.com/2020/01/03/la9lfU.jpg">
+			<video poster=“http://lc-A2aR83iQ.cn-n1.lcfile.com/7639a909e39d1344e0de.jpg” controls>
+				<source src="http://lc-A2aR83iQ.cn-n1.lcfile.com/581b1481ff3e6d1a7b50/manage_demo.mp4" type="video/mp4">
+				您的浏览器不支持播放。
+			</video>
+			<!-- <iframe frameborder="0" width="100%" height="498" src="https://v.qq.com/iframe/player.html?vid=z0519qyxjbx&tiny=0&auto=0" allowfullscreen></iframe> -->
+		</div>
+
+		<script type="text/javascript" src="js/main.js"></script>
+	    <script type="text/javascript">
+		// 检测上下滑动	
+			var new_scroll_position = 0;
+			var last_scroll_position;
+			var header = document.getElementById("section-topbar");
+
+			window.addEventListener('scroll', function(e) {
+			  last_scroll_position = window.scrollY;
+
+			  if (new_scroll_position < last_scroll_position && last_scroll_position > 80) {
+				header.classList.remove("slideLeft");
+				header.classList.add("slideRight");
+
+			  } else if (new_scroll_position > last_scroll_position) {
+				header.classList.remove("slideRight");
+				header.classList.add("slideLeft");
+			  }
+
+			  new_scroll_position = last_scroll_position;
+			});
+
+	    </script>
+	</body>
+</html>
