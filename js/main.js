@@ -477,9 +477,10 @@ $('#section-topbar,#section-topbar2,#section-topbar02').click(function(){$('html
 var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?f49f664c274810db237c8a6f98735396";
+  hm.src = "https://hm.baidu.com/hm.js?041cc52a20b99a2404ce834efb65ee54";
   var s = document.getElementsByTagName("script")[0]; 
   s.parentNode.insertBefore(hm, s);
 })();
+
 
         
