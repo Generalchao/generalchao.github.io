@@ -18,10 +18,7 @@ ul, ol{list-style-type: none;}
 .container{max-width: 100%;position: relative;}
 #content{overflow-x: hidden;transition: .5s;transform:perspective(500px)  translate3d(0,0,0);}
 .swiper-wrapper .container{padding-left: 30px;padding-right: 30px;}
-@media (min-width: 415px) {
-  .swiper-wrapper .container{padding-left: 60px;padding-right: 60px;}
-}
-
+@media (min-width: 415px) {.swiper-wrapper .container{padding-left: 50px;padding-right: 50px;}}
 
 @font-face {
     font-family: 'Vesterbro';
@@ -30,7 +27,6 @@ ul, ol{list-style-type: none;}
     font-weight: 400;
     font-style: normal
 }
-
 @font-face {
     font-family: 'Vesterbro';
     src: url(//www.abstract.com/wp-content/themes/abstract-core/assets/css/../fonts/Vesterbro-Poster.eot);
