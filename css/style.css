@@ -562,11 +562,10 @@ transform: translate(0%, -50%);}
 }
 /*OUR WORKS*/
 
-
 /*公司介绍模块*/
 .price-wrapper{overflow: hidden;margin-bottom: 20px;position: relative;}
-.price-wrapper i{font-size: 50px;position: absolute; right: 40px; top: 36px;color: #ccc;z-index: 1;}
-.price-wrapper article{background-color: #fff; padding:45px;}
+.price-wrapper i{font-size: 50px;position: absolute; right: 40px; top: 26px;color: #ccc;z-index: 1;}
+.price-wrapper article{background-color: #fff; padding:35px;}
 .price{font-size: 42px; line-height: 42px; font-weight: 700;  color: #222;}
 .price sup{font-size: 24px;}
 .price-wrapper ul li{margin-bottom: 8px;}
