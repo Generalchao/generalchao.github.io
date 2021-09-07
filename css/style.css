@@ -353,7 +353,7 @@ header.active .scroll-nav{transform: translateX(0);}
 .social-network{top: 48px;right: 100px;position: absolute;z-index: 2;display: none;}
 .social-network a{display: inline-block;font-size: 26px;}
 .social-network a:hover i{color:rgba(255, 255, 255, 1) ;}
-.social-network a i{color: rgba(255, 255, 255, 0.6);padding:10px 14px;}
+.social-network a i{color: rgba(255, 255, 255, 0.6);padding:10px 14px;transition: .3s;}
 .logo-bottom{width: 80px;height: auto;}
 
 @media(min-width: 415px){
@@ -559,6 +559,7 @@ transform: translate(0%, -50%);}
 /*OUR WORKS*/
 
 /*公司介绍模块*/
+.icon-ByteDance{font-size: 30px !important;top: 36px !important;}
 .price-wrapper{overflow: hidden;margin-bottom: 20px;position: relative;}
 .price-wrapper i{font-size: 50px;position: absolute; right: 40px; top: 26px;color: #ccc;z-index: 1;}
 .price-wrapper article{background-color: #fff; padding:35px;}
@@ -567,6 +568,7 @@ transform: translate(0%, -50%);}
 .price-wrapper ul li{margin-bottom: 8px;}
 .price-wrapper ul li:last-child{margin-bottom: 0;}
 .price-wrapper ul li span{ color: #fd39c2; font-weight: 600;}
+
 
 @media (max-width: 415px){
   .price-wrapper article{padding:45px 30px;}

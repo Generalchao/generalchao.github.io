@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'dcdrops';
-  src:  url('fonts/dcdrops.eot?pvg7o6');
-  src:  url('fonts/dcdrops.eot?pvg7o6#iefix') format('embedded-opentype'),
-    url('fonts/dcdrops.ttf?pvg7o6') format('truetype'),
-    url('fonts/dcdrops.woff?pvg7o6') format('woff'),
-    url('fonts/dcdrops.svg?pvg7o6#dcdrops') format('svg');
+  src:  url('fonts/dcdrops.eot?et9xo7');
+  src:  url('fonts/dcdrops.eot?et9xo7#iefix') format('embedded-opentype'),
+    url('fonts/dcdrops.ttf?et9xo7') format('truetype'),
+    url('fonts/dcdrops.woff?et9xo7') format('woff'),
+    url('fonts/dcdrops.svg?et9xo7#dcdrops') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -13,7 +13,7 @@
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'dcdrops' !important;
-  speak: none;
+  speak: never;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -25,15 +25,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-renren:before {
-  content: "\e90a";
-}
-.icon-dingya:before {
-  content: "\e90b";
-}
-.icon-pdf:before {
-  content: "\e900";
-}
 .icon-demo:before {
   content: "\e800";
 }
@@ -88,6 +79,9 @@
 .icon-work:before {
   content: "\e818";
 }
+.icon-pdf:before {
+  content: "\e900";
+}
 .icon-UE:before {
   content: "\e901";
 }
@@ -114,4 +108,13 @@
 }
 .icon-discuss:before {
   content: "\e909";
+}
+.icon-renren:before {
+  content: "\e90a";
+}
+.icon-dingya:before {
+  content: "\e90b";
+}
+.icon-ByteDance:before {
+  content: "\e90c";
 }
