@@ -559,7 +559,7 @@ transform: translate(0%, -50%);}
 /*OUR WORKS*/
 
 /*公司介绍模块*/
-.icon-ByteDance{font-size: 30px !important;top: 36px !important;}
+.icon-ByteDance{font-size: 28px !important;top: 36px !important;}
 .price-wrapper{overflow: hidden;margin-bottom: 20px;position: relative;}
 .price-wrapper i{font-size: 50px;position: absolute; right: 40px; top: 26px;color: #ccc;z-index: 1;}
 .price-wrapper article{background-color: #fff; padding:35px;}
