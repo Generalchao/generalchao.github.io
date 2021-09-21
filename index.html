@@ -106,6 +106,7 @@
             80% { -webkit-transform: translateY(8px); transform: translateY(8px); }
             90% { -webkit-transform: translateY(0); transform: translateY(0); }
         }
+
 	
 </style>
 
@@ -117,20 +118,25 @@
 		<p>   Hi，<font id="time_box"></font>作品预热中...</p>
 	</div>
 	<header>
-		<div class="hamburger-menu default slideLeft42" id="menu_btn"><span></span><span></span><span></span></div>
-		<nav class="scroll-nav">
-			<i class="icon-dcdrops logo"></i>
-			<ul>
-				<li class="active animated"><a data-anchor="home"><i class="icon-home"></i><span>Home</span></a></li>
-				<li class="animated"><a data-anchor="about"><i class="icon-about"></i><span>About</span></a></li>
-				<li class="animated"><a data-anchor="portfolio"><i class="icon-portfolio"></i><span>Portfolio</span></a></li>
-				<li class="animated"><a data-anchor="skill"><i class="icon-skill"></i><span>Skill</span></a></li>
-				<li class="animated"><a data-anchor="strengths"><i class="icon-strengths"></i><span>Strengths</span></a></li>
-				<li class="animated"><a data-anchor="work"><i class="icon-work"></i><span>Work</span></a></li>
-				<li class="animated"><a data-anchor="contact"><i class="icon-contact"></i><span>Contact</span></a></li>
-				<!-- <li class="animated"><a href="message.html"><i class="icon-discuss"></i><span>Discuss <font style="font-size: 12px;opacity: .3;font-weight: normal;">Bata</font></span></a></li> -->
-			</ul>
-		</nav>
+		<div class="hamburger-menu default slideLeft42" id="menu_btn">
+			<div class="menu_box">
+				<span class="line"></span>
+				<span class="line"></span>
+				<span class="line"></span>	
+			</div>	
+			<nav class="scroll-nav">
+				<ul>
+					<li class="active animated"><a data-anchor="home"><i class="icon-home"></i><span class="text">Home</span></a></li>
+					<li class="animated"><a data-anchor="about"><i class="icon-about"></i><span class="text">About</span></a></li>
+					<li class="animated"><a data-anchor="portfolio"><i class="icon-portfolio"></i><span class="text">Portfolio</span></a></li>
+					<li class="animated"><a data-anchor="skill"><i class="icon-skill"></i><span class="text">Skill</span></a></li>
+					<li class="animated"><a data-anchor="strengths"><i class="icon-strengths"></i><span class="text">Strengths</span></a></li>
+					<li class="animated"><a data-anchor="work"><i class="icon-work"></i><span class="text">Work</span></a></li>
+					<li class="animated"><a data-anchor="contact"><i class="icon-contact"></i><span class="text">Contact</span></a></li>
+					<li class="animated" style="display: none;"><a href="message.html"><i class="icon-discuss"></i><span class="text">Discuss <font style="font-size: 12px;opacity: .3;font-weight: normal;">Bata</font></span></a></li>
+				</ul>
+			</nav>
+		</div>
 		<div class="mask"></div>
 		<a class="logo" href="#">
 			<i class="icon-dcdrops"></i>
