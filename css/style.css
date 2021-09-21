@@ -318,17 +318,17 @@ header nav ul li.active a span:before{transform: scale3d(1,1,1);}
 header nav ul li:hover a span:before{transform: scale3d(1,1,1);}
 header .follow-style-3{background: transparent; padding: 0; font-size: 12px; height: 30px; line-height: 30px;}
 header .header-content > ul li a{color: rgba(255,255,255,0.7);}
-header .hamburger-menu{position: fixed; top: 15px; right: 15px; width: 50px; height: 50px;border-radius: 10px; cursor: pointer;transition: 1s;z-index: 1000;overflow: hidden;}
+header .hamburger-menu{position: fixed; top: 15px; right: 15px; width: 50px; height: 50px;border-radius: 10px; cursor: pointer;transition: 0.8s;z-index: 1000;overflow: hidden;}
 header .hamburger-menu.menu_bg{background-color: rgba(0, 0, 0, 0.64)}
-header .hamburger-menu.active{width: 300px;height: calc(100vh - 50px);background: rgba(255,255,255,0.85);-webkit-backdrop-filter: saturate(180%) blur(20px);backdrop-filter: saturate(180%) blur(20px);}
-.menu_box{position: absolute;width: 50px;height: 50px;right: 0;top: 0;transition: 1s;}
+header .hamburger-menu.active{width: 300px;height: calc(100vh - 100px);background: rgba(255,255,255,0.85);-webkit-backdrop-filter: saturate(180%) blur(20px);backdrop-filter: saturate(180%) blur(20px);}
+.menu_box{position: absolute;width: 50px;height: 50px;right: 0;top: 0;transition: 0.8s;}
 header .hamburger-menu.active .menu_box{right: 12px;top: 12px;}
 header .hamburger-menu .line{position: absolute; left: 13px; width: 24px; height: 3px;border-radius: 3px; background-color: #fff; transition: 0.5s;}
 header .hamburger-menu.active .line{background-color: #333;}
 header .hamburger-menu .line:nth-child(1){bottom: 28px;}
 header .hamburger-menu .line:nth-child(2){bottom: 19px;width: 15px;}
 header .hamburger-menu .line:nth-child(3){bottom: 19px;width: 5px;right: 13px;left: auto;}
-header .hamburger-menu.active{right: 25px;top: 25px;transition: 1s;}
+header .hamburger-menu.active{right: 25px;top: 25px;}
 header .hamburger-menu.active .line:nth-child(1){-ms-transform: rotate(45deg) translateX(4px) translateY(3px); -webkit-transform: rotate(45deg) translateX(4px) translateY(3px); transform: rotate(45deg) translateX(4px) translateY(3px);}
 header .hamburger-menu.active .line:nth-child(2){opacity: 0;}
 header .hamburger-menu.active .line:nth-child(3){-ms-transform: rotate(-45deg) translateX(3px) translateY(-3px); -webkit-transform: rotate(-45deg) translateX(3px) translateY(-3px); transform: rotate(-45deg) translateX(3px) translateY(-3px);width: 24px;}
