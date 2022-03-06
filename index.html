@@ -143,6 +143,7 @@
 		</a>
 
 		<div class="social-network">
+
 			<a href="https://dribbble.com/hidachao" title="Dribbble作品"><i class="icon-dribbble"></i></a>
 			<a href="http://dcdrops.zcool.com.cn" title="站酷作品"><i class="icon-zhanku"></i></a>
 			<a href="http://i.ui.cn/ucenter/125805.html" title="UI中国作品"><i class="icon-uichina"></i></a>
@@ -168,7 +169,7 @@
 								<article class="text-left">
 									<h1 class="h1" data-swiper-parallax="-800"><span>Hi, </span><font id="time_box2"></font><span class="header-text">I'm glad that you visited my site where he can get to know me and my works.</span></h1>
 									<div class="empty-space h35-xs"></div>
-									<p class="h6 white" data-swiper-parallax="-1000">张超超／7年+UX／北京</p>
+									<p class="h6 white" data-swiper-parallax="-1000">张超超／<font class="myYear" id="myYear"></font>年+UX／北京</p>
 									<p data-swiper-parallax="-600">PERSONAL PORTFOLIO</p>
 									<div class="empty-space h30-xs"></div>
 									<div class="btn-wrap">
@@ -836,6 +837,7 @@
 		}
 
 
+
 		// 判断时辰(已移除jquery)
 		var timeshow1 = document.getElementById("time_box");
 		var timeshow2 = document.getElementById("time_box2");
@@ -850,6 +852,50 @@
 		else if (hour < 19){timeshow1.innerHTML = "傍晚好！";timeshow2.innerHTML = "good evening! "} 
 		else if (hour < 22){timeshow1.innerHTML = "晚上好！";timeshow2.innerHTML = "good night! "} 
 		else {timeshow1.innerHTML = "夜里好！";timeshow2.innerHTML = "it`s time to sleep! "} 
+		// 判断时辰(已移除jquery)
+
+
+
+
+		// 自动计算工作年限
+		var startYear = "2014";          //当年的年份
+		var startMonth = 7;              //当年月份
+
+	    var now = new Date();
+	    var year = now.getFullYear();       
+	    var month = now.getMonth() + 1;     
+
+		var numMonth = (month + startMonth)/12;
+		var numMonth = numMonth.toFixed(1);
+		var numMonth = parseFloat(numMonth);        //将月份小数字符串转换为数字
+
+
+		var numYear = year - startYear - 1 + numMonth;
+
+		var myYear = document.getElementById("myYear");
+		// var myYear = document.getElementsByClassName("myYear");
+		myYear.innerHTML = numYear;
+
+
+
+
+		// 获取当前日期时间
+		function timestampToTime(timestamp) {
+		    var date = new Date(timestamp);
+		    var Y = date.getFullYear() + '-';
+		    var M = (date.getMonth() + 1 < 10 ? '0' + (date.getMonth() + 1) : date.getMonth() + 1) + '-';
+		    var D = date.getDate() < 10 ? '0' + date.getDate() : date.getDate() + ' ';
+		    var hh = date.getHours() < 10 ? '0' + date.getHours() : date.getHours() + ':';
+		    var mm = date.getMinutes() < 10 ? '0' + date.getMinutes() : date.getMinutes() + ':';
+		    var ss = date.getSeconds() < 10 ? '0' + date.getDate() : date.getSeconds() ;
+		    return Y + M + D + hh + mm + ss;
+		}
+
+
+		// 自动计算工作年限
+
+
+
 
 
 		// 滚动到指定位置固定菜单
