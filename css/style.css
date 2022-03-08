@@ -142,7 +142,7 @@ ul, ol{list-style-type: none;}
 
 
 .button:last-child{margin-right: 0;}
-.button span{z-index: 2; position: relative;line-height: normal;display: inline-block;text-transform:uppercase;display: block;transform: translate(6px, -6px);}
+.button span{z-index: 2; position: relative;line-height: normal;display: inline-block;display: block;transform: translate(6px, -6px);font-weight: bold;}
 .button span:nth-of-type(1){font-size: 12px;}
 .button i{ font-size: 30px;position: absolute;left: 30px;height: 100% ;top:0;display: flex;-webkit-box-align: center;-ms-flex-align: center;align-items: center;-webkit-box-pack: center;-ms-flex-pack: center;justify-content: center;z-index: 2;transform: translate(6px, -6px);}
 
@@ -161,9 +161,9 @@ ul, ol{list-style-type: none;}
 
 /*typography*/
 .h1,.h2,.h3,.h4,.h5,.h6,.h7{color: #222; font-weight: 700; margin: 0;}
-.h1{font-size: 28px; line-height: 50px; }
+.h1{font-size: 60px; }
 .h2{font-size: 30px; line-height: 30px; font-family: 'Oswald', sans-serif;text-transform: uppercase;}
-.h3{font-size: 24px; line-height: 24px;}
+.h3{font-size: 24px;}
 .h4{font-size: 18px; line-height: 24px;}
 .h5{font-size: 16px; line-height: 24px;}
 .h6{font-size: 12px; line-height: 24px;font-weight: 700; color: #fd39c2;letter-spacing: 3px;text-transform: uppercase; }
@@ -179,7 +179,7 @@ ul, ol{list-style-type: none;}
 
 
 @media (max-width: 1024px) {
-  .h1{font-size: 28px; line-height: 50px;}
+  .h1{font-size: 38px; line-height: 50px;}
 }
 @media (max-width: 414px) {
   .h1{font-size: 30px;}
@@ -427,7 +427,6 @@ header .hamburger-menu{top:35px;right: 35px;}
 .colorbox .ball_10{width: 304px;height: 304px;left: 651px;top:667px;background-image: radial-gradient(circle at 71% 27%, #ffffff, #b5c2d2);z-index: 8}
 .colorbox .ball_11{width: 94px;height: 94px;left: 651px;top:650px;background-image: radial-gradient(circle at 71% 27%, #ffffff, #b5c2d2);z-index: 7}
 .colorbox .ball_12{width: 88px;height: 88px;left: 873px;top:562px;background-image: radial-gradient(circle at 56% 32%, #ff96da, #cd1f9e);z-index: 6}
-.header-text{padding-left:30px;}
 .social-network{display: block}
 
 }
