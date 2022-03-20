@@ -532,7 +532,7 @@ footer .follow{margin-left: 10px;}
 /*OUR WORKS*/
 .sorting-menu{position: relative; display: inline-block; width: 100%; height: auto; text-align: center;}
 .sorting-menu ul{display: inline-block;}
-.sorting-menu ul li{position: relative;  display: inline-block; height: 30px; line-height: 28px; padding: 0 15px; margin: 0 5px; font-size: 14px; color: #cecece; cursor: pointer; padding-top: 2px;}
+.sorting-menu ul li{position: relative;  display: inline-block; padding: 4px 15px; font-size: 14px; color: #cecece; cursor: pointer;}
 .sorting-menu ul li span{z-index: 1; position: relative;}
 .sorting-menu ul li.active{color: #fff; background-color: #fd39c2;}
 .sorting-menu ul li:before{content:""; position: absolute; left: 0; bottom: 0; height: 0; width: 100%; background-color: #fd39c2;}
