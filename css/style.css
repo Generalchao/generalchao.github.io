@@ -19,7 +19,6 @@ ul, ol{list-style-type: none;}
 .container{max-width: 100%;position: relative;}
 #content{overflow-x: hidden;transition: .5s;transform:perspective(500px)  translate3d(0,0,0);}
 .swiper-wrapper .container{padding-left: 30px;padding-right: 30px;}
-@media (min-width: 415px) {.swiper-wrapper .container{padding-left: 50px;padding-right: 50px;}}
 
 @font-face {
     font-family: 'Vesterbro';
@@ -181,7 +180,7 @@ ul, ol{list-style-type: none;}
 @media (max-width: 1024px) {
   .h1{font-size: 38px; line-height: 50px;}
 }
-@media (max-width: 414px) {
+@media (max-width: 428px) {
   .h1{font-size: 30px;}
   .h2{font-size: 28px; line-height: 28px;}
 }
