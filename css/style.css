@@ -532,7 +532,7 @@ footer .follow{margin-left: 10px;}
 /*OUR WORKS*/
 .sorting-menu{position: relative; display: inline-block; width: 100%; height: auto; text-align: center;}
 .sorting-menu ul{display: inline-block;}
-.sorting-menu ul li{position: relative; float: left; display: inline-block; height: 30px; line-height: 28px; padding: 0 15px; margin: 0 5px; font-size: 14px; color: #cecece; cursor: pointer; padding-top: 2px;}
+.sorting-menu ul li{position: relative;  display: inline-block; height: 30px; line-height: 28px; padding: 0 15px; margin: 0 5px; font-size: 14px; color: #cecece; cursor: pointer; padding-top: 2px;}
 .sorting-menu ul li span{z-index: 1; position: relative;}
 .sorting-menu ul li.active{color: #fff; background-color: #fd39c2;}
 .sorting-menu ul li:before{content:""; position: absolute; left: 0; bottom: 0; height: 0; width: 100%; background-color: #fd39c2;}
@@ -542,9 +542,6 @@ footer .follow{margin-left: 10px;}
 .display_options_space{display: none;}
 .sorting-menu ul li:hover{color: #fff;}
 .sorting-menu ul li:hover:before{height: 100%;}
-@media (max-width: 767px) {
-  .sorting-menu ul li{display: block;margin: 5px 0;}
-}
   /*isotope masonry*/
 .grid{position: relative; float: left; width: 100%;display: block;}
 .grid-sizer{width: 1%;}
@@ -775,7 +772,7 @@ i:before{padding: 0 !important;margin: 0 !important;line-height: normal !importa
 /*message*/
 .vlink.vinput, #vcomments .info{display: none;}
 .message_content{background-color: #f1f1f1;margin: 56px auto 0;max-width: 800px;}
-.v .vlist .vcard .vcontent a{}
+/* .v .vlist .vcard .vcontent a{} */
 .vpage{padding: 0 15px 20px;background-color: #fff;}
 .v .vpage .vmore{width: 100%;background-color: #fff;}
 .v .vlist .vcard .vh .vtag{text-align: right;font-size: 10px;}
