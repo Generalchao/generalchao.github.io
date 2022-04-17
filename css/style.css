@@ -381,9 +381,9 @@ header.active .scroll-nav{transform: translateX(0);}
 .colorbox{width: 970px;height: 970px;background: rgba(0, 0, 0, 0);position: absolute;left: -100px;top:-20px;z-index: 1;transform: scale(.5);}
 .colorbox .ball{position: absolute;border-radius: 100%;}
 .colorbox .ball_01{width: 110px;height: 110px;left: 0;top:67px;background-image: radial-gradient(circle at 71% 27%, #9fe3fa, #4584f0);z-index: 3}
-.colorbox .ball_02{width: 110px;height: 110px;left: 275px;top:0;background-image: radial-gradient(circle at 71% 27%, #9fe3fa, #4584f0);z-index: 1}
+.colorbox .ball_02{width: 110px;height: 110px;left: 275px;top:0;background-image: radial-gradient(circle at 71% 27%, #9fe3fa, #4584f0);z-index: 1;filter: blur(10px);-webkit-filter: blur(10px);}
 .colorbox .ball_03{width: 222px;height: 222px;left: 53px;top:93px;background-image: radial-gradient(circle at 71% 27%, #ffffff, #b5c2d2);z-index: 2}
-.colorbox .ball_04{width: 80px;height: 80px;left: 30px;top:624px;background-image: radial-gradient(circle at 71% 27%, #9fe3fa, #4584f0);z-index: 4}
+.colorbox .ball_04{width: 80px;height: 80px;left: 30px;top:624px;background-image: radial-gradient(circle at 71% 27%, #9fe3fa, #4584f0);z-index: 4;filter: blur(10px);-webkit-filter: blur(10px);}
 
 .colorbox .ball_05{width: 222px;height: 222px;left: 14px;top:664px;background-image: radial-gradient(circle at 71% 27%, #fed65a, #f28b00);z-index: 5}
 .colorbox .ball_06{width: 302px;height: 302px;left: 195px;top:353px;background-image: radial-gradient(circle at 56% 32%, #ff96da, #cd1f9e);z-index: 12}
